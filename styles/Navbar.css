@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #000000;
+    color: hsl(0, 0%, 100%);
+    font-size: 1em;
+    font-weight: 300;
+    padding: 0;
+    height: 4rem;
+    width: 100%;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 2px solid #ef1b0d; */
+}
+
+.navbar-mobile {
+    @apply flex justify-between px-4;
+}
+
+
+
+.links {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    
+}
+
