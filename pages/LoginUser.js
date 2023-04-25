@@ -70,7 +70,7 @@ function LoginUser() {
           width={433}
           className="object-contain border-r-4 border-black"
         />
-        <div className=" card flex items-center mt-14  mx-20">
+        <div className=" card flex items-center mt-10  mx-20">
           <div className="card__text">
             <h1 className="card__text--title text-6xl  mx-20 mb-6 Rubik font-bold text-[#333333]">
               Login
@@ -91,6 +91,11 @@ function LoginUser() {
                 type="text"
                 className="card__text--input--text text-lg w-96 h-12 px-2 bg-[#f6f6f6]  mt-6 focus:outline-none"
                 placeholder=" Email ID"
+              />
+              <input
+                type="text"
+                className="card__text--input--text text-lg w-96 h-12 px-2 bg-[#f6f6f6]  mt-6 focus:outline-none"
+                placeholder="Car Number"
               />
               <button className="card__text--input--button w-96 h-12 bg-black border-black border-2 text-white rounded-xl mt-6 Rubik hover:bg-white hover:text-black hover:border-black hover:border-2 transition ease-in-out duration-200">
                 Login

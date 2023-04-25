@@ -14,9 +14,7 @@ function Navbar() {
     const paths = [
         { path: '/', name: 'HOME' },
         { path: '/register', name: 'REGISTER CAR' },
-        { path: '/LoginUser', name: 'LOG IN' },
-        { path: '/#faq', name: 'FAQ' },
-        { path: '/#contact', name: 'CONTACT' },
+        { path: '/LoginUser', name: 'LOG IN' }
     ];
 
     return (

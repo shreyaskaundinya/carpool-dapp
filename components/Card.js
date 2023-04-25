@@ -6,10 +6,11 @@ function Card()
 {
     return(
         <>
-        <div className=" card flex items-center mt-14 max-w-6xl justify-end ">
-            <div className="card__text">
-                <h1 className="card__text--title text-3xl text-left mx-20 mb-6 Rubik font-bold text-[#333333]">Request a Ride</h1>
-                <p className="card__text--description text-left mx-20 text-sm w-96 Rubik text-[#333333]">Fill in your location and destination and then click on the "Request a Ride" Button to request a ride.</p>
+        
+        <div className=" flex mt-10 max-w-xl">
+            <div className="card__text max-w-xl">
+                <h1 className="card__text--title text-3xl mb-6 Rubik font-bold text-[#333333]">Request a Ride</h1>
+                <p className="card__text--description  text-sm w-96 Rubik text-[#333333]">Fill in your location and destination and then click on the "Request a Ride" Button to request a ride.</p>
                 {/* <h2 className='text-left mx-20 mt-5 font-bold Rubik text-[#333333]'>Destination</h2> */}
                 {/* input */}
                 <div className="card__text--input flex flex-col items-center">
@@ -21,6 +22,7 @@ function Card()
                 
             </div>
         </div>
+        
         </>
     )
 
